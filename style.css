@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
+* {
+    padding: 0;
+    /* margin: 5px; */
+    text-align: center;
+    font-family: 'Poppins';
+  }
+  body{
+    background-color: #3C3C48;
+  }
+  section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+  }
+  form{
+    width: 40%;
+    height: 90%;
+    box-shadow: 0px 0px 2px 10px #262634;
+    background-color: #262634;
+    border-radius: 10px;
+    margin-right:10%;
+    position:absolute;
+    left:15%;
+  }
+  table{
+    width: 100%;
+    height: 100%;
+  }
+  .memory{
+    width: 20%;
+    height: 90%;
+    text-align: center;
+    background-color: #262634;
+    box-shadow: 0px 0px 2px 10px #262634;
+    position: absolute;
+    right: 10%;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+  }
+  td{
+    width:10%;
+  }
+  input{
+    outline: none;
+    border: none;
+    width: 90%;
+    height: 90%;
+    border-radius: 10px;
+    background-color:#262634 ;
+    box-shadow: 0px 8px 16px #0000001a;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  #egal{
+    background-color:#FF7904;
+    color:#B8B8BA;
+
+  }
+  #output{
+    height: 20%;
+  }
+  #display {
+    width: 100%;
+    height: 100%;
+    text-align: right;
+    background-color: #262634;
+    font-size: 18px;
+    left: 2px;
+    top: 2px;
+    color:#B8B8BA;
+  }
+  #border_top{
+    border-top: 1px solid #B8B8BA;
+  }
+  .btnTop{
+    color: #FF7904;
+  }
+  .btnNum {
+    color:#B8B8BA;
+  }
+  .btnMath {
+    color: #FF7904;
+  }
+  .btnOpps {
+    color: #FF7904;
+  }
+  .func{
+    width: 85%;
+    text-align: center;
+    position: absolute;
+    left:10%;
+  }
+  p{
+    padding: 12px 80px;
+    border-radius: 10px;
+    color: #FF7904;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #262634;
+  } 
+  #b{
+    border:none;
+    background-color: #262634;
+    display: inline;
+    width: 55%;
+    padding:10px;
+  }
+  #submit{
+    display: inline;
+    border:none;
+    width: 14%;
+    background-color:#FF7904;
+    color:#B8B8BA;
+    padding:10px;
+  }
+  .canvass{
+    width: 85%;
+    height:800px;
+    background-color: #262634;
+    box-shadow: 0px 4px 8px #262634;
+    border-radius: 10px;
+    position: relative;
+    right:-2%;
+    margin:10% auto;
+    margin-top: 90px;
+  }
+  .canvass canvas{
+    width: 100%;
+    height:100%;
+  }
+  .pass {
+    list-style-type: none;
+    color:#B8B8BA;
+  }
+  
+ 
